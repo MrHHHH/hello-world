@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+int main( )
 {
 	int count = 0;
 	int i = 0;
