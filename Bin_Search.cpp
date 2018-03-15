@@ -16,6 +16,7 @@ int bin_Search(int arr[], int left, int right, int key)
 	}
 	return -1;
 }
+
 int main()
 {
 	int arr[10] = { 1,2,3,4,5,6,7,8,9,10 };
