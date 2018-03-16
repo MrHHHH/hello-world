@@ -5,10 +5,10 @@ int count_one_bits(int n)
 	while (n) {
 		n = n&(n - 1);
 		count++;
-	}
+	} 
 	return count;
 }
-int main()
+int main( )
 {
 	int a = 0, b = 0;
 	scanf("%d%d", &a, &b);
@@ -16,4 +16,4 @@ int main()
 	int count = count_one_bits(n);
 	printf("%d\n", count);
 	return 0;
-}
+} 
