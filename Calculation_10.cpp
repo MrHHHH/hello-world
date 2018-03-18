@@ -1,18 +1,37 @@
-#include<stdio.h>
-#include<math.h>
+#include <stdio.h>
+#define MAX 100
 int main()
 {
-    double n = 0.0;
-    int m = 0;
-    while (EOF != scanf("%lf%d", &n, &m))
+    int n = 0;
+    int a[MAX] = { 0 };
+    while (EOF != scanf("%d", &n))
     {
         double sum = 0.0;
-        for (int i = 0; i < m; i++)
+        double average = 0;
+        for (int i = 0; i < n; i++)
         {
-            sum += n;
-            n = sqrt(n);
+            scanf("%d", &a[i]);
         }
-        printf("%.2lf\n", sum);
+
+        for (int i = 0; i < n - 1; i++)
+            for (int j = i + 1; j < n; j++)
+            {
+                if (a[i] > a[j])
+                {
+                    int temp = a[i];
+                    a[i] = a[j];
+                    a[j] = temp;
+                }
+            }
+
+        for (int i = 1; i < n - 1; i++)
+        {
+            sum += a[i];
+        }
+
+        average = sum / (n - 2);
+
+        printf("%.2lf\n", average);
     }
     return 0;
 }
