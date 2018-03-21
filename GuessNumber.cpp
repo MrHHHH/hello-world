@@ -16,17 +16,17 @@ void game()
 		printf("Input a number:\n");
 		scanf("%d", &n);
 		if (n > num)
-			printf("猜大了！\n");
+			printf("鐚滃ぇ浜嗭紒\n");
 		if (n < num)
-			printf("猜小了！\n");
+			printf("鐚滃皬浜嗭紒\n");
 		if (n == num)
 		{
-			printf("猜对了！\n");
+			printf("鐚滃浜嗭紒\n");
 			break;
 		}
 	}
 }
-int main()
+int main() 
 {
 	int choice = 0;
 	srand((unsigned int)time(NULL));
