@@ -16,4 +16,4 @@ int main()
 	int count = count_one_bits(num);
 	printf("%d", count);
 	return 0;
-}
+} 
