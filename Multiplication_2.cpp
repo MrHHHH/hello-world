@@ -15,4 +15,4 @@ int main()
 	scanf("%d", &num);
 	print(num);
 	return 0;
-}
+} 
