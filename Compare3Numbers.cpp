@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define SWAP(a,b) { a = a ^ b; b = a ^ b; a = a ^ b; }
-int main()
+int main() 
 {
 	int a = 0;
 	int b = 0;
