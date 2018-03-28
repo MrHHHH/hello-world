@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #define MAX 1000000
-int main()
+int main() 
 {
 	char input[MAX] = { 0 };
 	int i = 0;
