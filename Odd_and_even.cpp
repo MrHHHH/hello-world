@@ -2,7 +2,7 @@
 int main() 
 {
 	int num = 0;
-	int i = 0;
+	int i = 0; 
 	scanf("%d", &num);
 	printf("偶数位：");
 	for (i = 31; i >= 0; i-=2) {
