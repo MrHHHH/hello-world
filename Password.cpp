@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 #include<windows.h>
-int main()
+int main() 
 {
 	char passwd[10] = { 0 };
 	for (int i = 0; i <= 3; i++)
@@ -9,15 +9,15 @@ int main()
 		scanf("%s", passwd);
 		if (strcmp(passwd, "123456") == 0)
 		{
-			printf("ÕýÈ·\n");
+			printf("æ­£ç¡®\n");
 			break;
 		}
 		else 
 		{
-			printf("´íÎó\n");
+			printf("é”™è¯¯\n");
 			if (i == 2)
 			{
-				printf("´íÎó3´Î£¬ÍË³öÏµÍ³\n");
+				printf("é”™è¯¯3æ¬¡ï¼Œé€€å‡ºç³»ç»Ÿ\n");
 				exit(0);
 			}
 		}
