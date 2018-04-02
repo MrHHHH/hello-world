@@ -6,7 +6,7 @@ void print(int num)
 	}
 	printf("%d\n", num%10);
 }
-int main()
+int main() 
 {
 	int num = 0;
 	scanf("%d", &num);
