@@ -6,7 +6,7 @@ void fun(char *x, char *y)
         char tmp = *x;
         *x = *y;
         *y = tmp;
-    }
+    } 
 }
 int main()
 {
