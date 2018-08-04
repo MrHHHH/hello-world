@@ -3,7 +3,7 @@ void fun(char *x, char *y)
 {
     if (*x > *y)
     {
-        char tmp = *x;
+        char tmp = *x; 
         *x = *y;
         *y = tmp;
     } 
@@ -21,3 +21,4 @@ int main()
     }
     return 0;
 }
+ 
