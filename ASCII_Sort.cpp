@@ -8,11 +8,12 @@ void fun(char *x, char *y)
         *y = tmp;
     } 
 }
-int main()
+int main( )
 {
     char a, b, c;
     while (scanf("%c%c%c", &a, &b, &c) != EOF)
-    {
+    {  
+
         getchar();
         fun(&a, &b);
         fun(&a, &c);
